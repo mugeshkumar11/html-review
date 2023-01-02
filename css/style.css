@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+/* sales start */
+.sales{
+    padding: 30px;
+}
+.salesflex{
+    display: block;
+}
+.salescontent{
+    width: 100%;
+}
+.salesimage{
+    width: 100%;
+}
+.salesimage img{
+    width: 100%;
+    height: 100%;
+}
+.salescontent h2{
+    font-size: 36px;
+    color: #000000;
+    font-weight:800;
+    padding-bottom: 30px;
+}
+.salescontent p {
+font-size: 21px;
+color: #000000;
+font-weight: 200;
+line-height: 27px;
+padding-bottom: 30px;
+}
+.salescontent a{
+    text-decoration: none;
+    color: #ff0000;
+}
+.salescontent i{
+    padding-left: 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.salesinput{
+    position: relative;
+    padding-bottom: 10px;
+}
+.salesinput input{
+    padding: 20px 150px 20px 7px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+}
+.salesinput button{
+    padding: 14px 18px;
+    position: absolute;
+    left: 63%;
+    top: 10%;
+    border-radius: 4px;
+    background-color: #ff0000;
+    border: none;
+    color: #ffff;
+}
+.signin a{
+    text-decoration: none;
+    color: #0000ff;
+    /* padding-bottom: 20px; */
+}
+.signin i{
+    color: #ff0000;
+}
+.salesimage {
+    position: relative;
+}
+.videoimg i{
+    font-size: 40px;
+    color: #ff0000;
+}
+.videoimg {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+}
+.salesimage button{
+padding: 7px 20px;
+background-color: #ff0000;
+border: none;
+color: #ffff;
+border-radius:20px ;
+position: absolute;
+top: 78%;
+left: 38%;
+}
+/* sales end */
+/* client start */
+.client{
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+.clientimage{
+    width: 100%;
+}
+.clientimage img{
+width: 100%;
+height: 100%;
+}
+.clientcontent h2{
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    color:#0e0928;
+}
+.clientcontent h2{
+    text-align: center;
+  }
+/* client end */
+/*deploy start */
+.deploy{
+    background-color: #5740EA;
+    padding: 20px;
+}
+.deployflex{
+    display: block;
+}
+.deployheading h2{
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 20px;
+}
+.hrline{
+border-bottom: 1px solid #fff;
+width: 100%;
+text-align: center;
+padding-bottom: 20px;
+}
+.deployimage img{
+    width: 100%;
+    height: 100%;
+}
+.deployimage{
+    width: 100%;
+}
+.deploycontent h3{
+    font-size: 30px;
+    color: #fff;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.deploycontent p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 28px;
+}
+.questions p a {
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 18px;
+}
+.questions p i{
+    color: #ff0000;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.deploycontent button{
+    padding: 10px 20px ;
+   background-color: #ff0000;
+   color: #fff;
+   border: none;
+   border-radius: 8px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+/* deploy end */
+
+@media(min-width:768px){
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* sales start */
+.salesinput button{
+    left: 33%;
+    top: 10%;
+}
+.videoimg {
+    top: 35%;
+    left: 50%;
+}
+.salesimage button{
+top: 80%;
+left: 48%;
+}
+
+/* sales end */
+}
+@media (min-width:1024px){
+.container{
+    width: 86%;
+    margin: auto;
+}
+
+/* sales start */
+.salesflex{
+    display: flex;
+}
+.salescontent{
+    width: 50%;
+}
+.salesimage{
+    width: 50%;
+}
+.salesinput button{
+    left: 49%;
+    top: 10%;
+}
+.salesimage img{
+    padding: 20px;
+}
+.videoimg {
+    top: 35%;
+    left: 50%;
+}
+.salesimage button{
+top: 78%;
+left: 42%;
+}
+
+/* sales end */
+/* deploy start */
+.deployflex{
+    display: flex;
+    padding-top: 40px;
+}
+.deploycontent{
+    width: 50%;
+}
+.deployimage {
+    width: 50%;
+    padding: 20px;
+}
+/* deploy end */
+}
+@media (min-width:1100px){
+    /* sales start */
+    .salesinput button{
+        left: 37%;
+        top: 10%;
+    } 
+    .salesimage button{
+        top: 78%;
+        left: 47%;
+        }
+        /* sales end */
+}
