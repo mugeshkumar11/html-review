@@ -266,7 +266,6 @@ padding: 20px;
 }
 .customer1 h3{
     font-size: 18px;
-    padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
     flex-wrap: wrap;
@@ -465,4 +464,8 @@ text-align: start;
         left: 47%;
         }
         /* sales end */
+        .customerdetail{
+            display: flex;
+            padding-bottom: 11%;
+        }
 }
